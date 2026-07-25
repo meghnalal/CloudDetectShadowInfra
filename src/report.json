@@ -1,0 +1,636 @@
+{
+  "coverage_pct": 6.7,
+  "dark_count": 126,
+  "dark_resources": [
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:policy",
+      "arn": "arn:aws:iam::417518835809:policy/service-role/AWSLambdaBasicExecutionRole-02763dc1-3424-40ef-9eea-d1ac6dbd85c2"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:policy",
+      "arn": "arn:aws:iam::417518835809:policy/service-role/Cognito-1766860939659"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:policy",
+      "arn": "arn:aws:iam::417518835809:policy/service-role/AWSLambdaBasicExecutionRole-3d9836ab-89b1-47b3-8ed4-15c72ccbead3"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:policy",
+      "arn": "arn:aws:iam::417518835809:policy/service-role/AWSLambdaBasicExecutionRole-06b173f2-929f-44c0-9839-8aabe7b6f9d2"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:policy",
+      "arn": "arn:aws:iam::417518835809:policy/service-role/MediaConvert_Default_Role_1755374263252"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/ecsTaskExecutionRole"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/lambda_role_media_converter"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/service-role/pocsendlink-role-v2qcsymh"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/MediaConvert_Default_Role"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/ecsInstanceRole"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/service-role/justtest-role-woxe37qv"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/service-role/CognitoIdpSNSServiceRole"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/application-signals.cloudwatch.amazonaws.com/AWSServiceRoleForCloudWatchApplicationSignals"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/service-role/Testing-role-ducx498w"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:role",
+      "arn": "arn:aws:iam::417518835809:role/aws-service-role/sms-voice.amazonaws.com/AWSServiceRoleForSMSVoice"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:user",
+      "arn": "arn:aws:iam::417518835809:user/Netflix"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:user",
+      "arn": "arn:aws:iam::417518835809:user/cloudscanning"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "iam:user",
+      "arn": "arn:aws:iam::417518835809:user/Meghna"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "kms:key",
+      "arn": "arn:aws:kms:eu-west-2:417518835809:key/90622e7b-2add-4e27-a496-e041b46d3996"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "kms:key",
+      "arn": "arn:aws:kms:eu-west-2:417518835809:key/b9df6260-b5f1-4cb1-8452-d9e89fdc6870"
+    },
+    {
+      "severity": "CRITICAL",
+      "resource_type": "kms:key",
+      "arn": "arn:aws:kms:eu-west-2:417518835809:key/8b1c03f4-c3f0-43b3-b7d8-3ed8730a3e3b"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "cognito-idp:userpool",
+      "arn": "arn:aws:cognito-idp:eu-west-2:417518835809:userpool/eu-west-2_mrvEndlEN"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group/sg-040f4c2862bf1aeeb"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group/sg-08e685c1d0478f5b0"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group/sg-0351d83b9b708bb55"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group/sg-008889e4a0e25e01b"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:security-group/sg-03c513da6c176393d"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ec2:security-group",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group/sg-07b409dcb41b3af76"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::outputvideoforpoc"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::myterraformstates1"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::testingifworkscloudscanning"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::outputvideonetflix"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::inputvideonetflix"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::inputvideoforpoc"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "s3:bucket",
+      "arn": "arn:aws:s3:::driftdetectionstate"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ses:identity",
+      "arn": "arn:aws:ses:eu-west-2:417518835809:identity/meghna.lal@icloud.com"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ses:identity",
+      "arn": "arn:aws:ses:eu-west-2:417518835809:identity/lalmaggy@gmail.com"
+    },
+    {
+      "severity": "HIGH",
+      "resource_type": "ses:identity",
+      "arn": "arn:aws:ses:eu-west-2:417518835809:identity/robbienolan@me.com"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "ec2:vpc",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:vpc/vpc-0221155efe9b825e2"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "ec2:vpc",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:vpc/vpc-0c1822ff22591d1df"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "ec2:vpc",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:vpc/vpc-0d5166ce28b6e4a0b"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "events:event-bus",
+      "arn": "arn:aws:events:eu-west-2:417518835809:event-bus/default"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "events:event-bus",
+      "arn": "arn:aws:events:eu-north-1:417518835809:event-bus/default"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "events:event-bus",
+      "arn": "arn:aws:events:us-east-1:417518835809:event-bus/default"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "events:rule",
+      "arn": "arn:aws:events:eu-west-2:417518835809:rule/ecs-managed-capacity-provider-rule"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "lambda:function",
+      "arn": "arn:aws:lambda:eu-west-2:417518835809:function:pocsendlink"
+    },
+    {
+      "severity": "MEDIUM",
+      "resource_type": "lambda:function",
+      "arn": "arn:aws:lambda:eu-west-2:417518835809:function:lambda_exec_media_converter"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "athena:workgroup",
+      "arn": "arn:aws:athena:us-east-1:417518835809:workgroup/primary"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "athena:workgroup",
+      "arn": "arn:aws:athena:eu-west-2:417518835809:workgroup/primary"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "athena:workgroup",
+      "arn": "arn:aws:athena:eu-north-1:417518835809:workgroup/primary"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:subnet/subnet-08b98eec6fb6b057f"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:subnet/subnet-0b8aa35103f6bd35f"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:subnet/subnet-0f0d738b407d28c3e"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:subnet/subnet-0005e51691397a4c0"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0dabf0d794cebb98e"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0b295a537be09928e"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:subnet/subnet-0b4f664a5e334ae2f"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0b9054f704fcef8ac"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0e8d7507c382663f4"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:subnet/subnet-0a33bc3b2167c39cd"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0e0656138cb0e05cd"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "ec2:subnet",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:subnet/subnet-0da3c25b253f2a6d0"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "logs:log-group",
+      "arn": "arn:aws:logs:eu-west-2:417518835809:log-group:/aws/application-signals/data"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "logs:log-group",
+      "arn": "arn:aws:logs:eu-west-2:417518835809:log-group:/aws/lambda/justtest"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "logs:log-group",
+      "arn": "arn:aws:logs:eu-west-2:417518835809:log-group:/ecs/nginxdemos-hello"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "logs:log-group",
+      "arn": "arn:aws:logs:eu-west-2:417518835809:log-group:/aws/lambda/lambda_exec_media_converter"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "logs:log-group",
+      "arn": "arn:aws:logs:eu-west-2:417518835809:log-group:/aws/lambda/pocsendlink"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:acl",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:acl/open-access"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:acl",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:acl/open-access"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:acl",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:acl/open-access"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:parametergroup/default.memorydb-redis7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-redis7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-redis7.search.preview"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:parametergroup/default.memorydb-redis6"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:parametergroup/default.memorydb-valkey7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-redis6"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-valkey7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-valkey7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:parametergroup/default.memorydb-redis6"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:parametergroup/default.memorydb-redis7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:parametergroup/default.memorydb-valkey7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:parametergroup/default.memorydb-redis7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:parametergroup/default.memorydb-valkey7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:parametergroup/default.memorydb-valkey7"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:parametergroup/default.memorydb-redis7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:parametergroup",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:parametergroup/default.memorydb-redis7.search"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:user",
+      "arn": "arn:aws:memorydb:eu-west-2:417518835809:user/default"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:user",
+      "arn": "arn:aws:memorydb:us-east-1:417518835809:user/default"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "memorydb:user",
+      "arn": "arn:aws:memorydb:eu-north-1:417518835809:user/default"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "sqs:queue",
+      "arn": "arn:aws:sqs:eu-west-2:417518835809:Demos3notification"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "xray:sampling-rule",
+      "arn": "arn:aws:xray:eu-west-2:417518835809:sampling-rule/Default"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "xray:sampling-rule",
+      "arn": "arn:aws:xray:eu-north-1:417518835809:sampling-rule/Default"
+    },
+    {
+      "severity": "LOW",
+      "resource_type": "xray:sampling-rule",
+      "arn": "arn:aws:xray:us-east-1:417518835809:sampling-rule/Default"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "apprunner:autoscalingconfiguration",
+      "arn": "arn:aws:apprunner:eu-west-2:417518835809:autoscalingconfiguration/DefaultConfiguration/1/00000000000000000000000000000001"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "apprunner:autoscalingconfiguration",
+      "arn": "arn:aws:apprunner:us-east-1:417518835809:autoscalingconfiguration/DefaultConfiguration/1/00000000000000000000000000000001"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "athena:datacatalog",
+      "arn": "arn:aws:athena:eu-north-1:417518835809:datacatalog/AwsDataCatalog"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "athena:datacatalog",
+      "arn": "arn:aws:athena:eu-west-2:417518835809:datacatalog/AwsDataCatalog"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "athena:datacatalog",
+      "arn": "arn:aws:athena:us-east-1:417518835809:datacatalog/AwsDataCatalog"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "cloudfront:distribution",
+      "arn": "arn:aws:cloudfront::417518835809:distribution/E3GSNO6QJGAT3Q"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:internet-gateway",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:internet-gateway/igw-062854195118edd7c"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:internet-gateway",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:internet-gateway/igw-077494f3fc2f3be98"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:internet-gateway",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:internet-gateway/igw-01cd2124135da85f9"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:route-table",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:route-table/rtb-0927c5a7ededb04dc"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:route-table",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:route-table/rtb-040829aa7d18d594f"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:route-table",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:route-table/rtb-020c25eaf4ec4ce2a"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:security-group-rule/sgr-0337aed408b9ec86a"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-0113a126fbb15d7e6"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:us-east-1:417518835809:security-group-rule/sgr-0764442bd6e754b5e"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-031901d4516c0e3f7"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group-rule/sgr-08c7cb62483e092b3"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-047ef2ff23c7b2d0f"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group-rule/sgr-0a4aa82306e96b0a1"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group-rule/sgr-0f9471c07d1fbdb54"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-07c569c11945d13c1"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-0f18d5aff011de8cf"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-north-1:417518835809:security-group-rule/sgr-0d298d4fdcb6e09d7"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "ec2:security-group-rule",
+      "arn": "arn:aws:ec2:eu-west-2:417518835809:security-group-rule/sgr-019a180ef6c09065b"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "elasticache:user",
+      "arn": "arn:aws:elasticache:eu-north-1:417518835809:user:default"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "elasticache:user",
+      "arn": "arn:aws:elasticache:eu-west-2:417518835809:user:default"
+    },
+    {
+      "severity": "UNKNOWN",
+      "resource_type": "elasticache:user",
+      "arn": "arn:aws:elasticache:us-east-1:417518835809:user:default"
+    }
+  ]
+}
