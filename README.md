@@ -17,7 +17,7 @@ This repo contains the companion code for the full article, covering deploying r
 Clone the repo and follow along with the article to deploy your own test resources, or swap in your own infrastructure.
 
 ```bash
-git clone <git@github.com:meghnalal/CloudDetectShadowInfra.git>
+git clone git@github.com:meghnalal/CloudDetectShadowInfra.git
 ```
 
 ## License
