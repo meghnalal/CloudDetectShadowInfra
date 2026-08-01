@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "driftdetectionstate"
+    bucket  = "shadowinfradetectionstate"
     key     = "terraform.tfstate"
     region  = "eu-west-2"
     encrypt = true

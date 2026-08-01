@@ -19,9 +19,9 @@ class DarkResource:
     severity: str
     managed_by_tag: str | None = None
    
-# schema for DriftReport  
+# schema for ShadowInfraReport  
 @dataclass
-class DriftReport:
+class ShadowInfraReport:
     """The output of a full drift scan."""
     account_id: str
     total_cloud: int = 0
@@ -62,9 +62,9 @@ class Comparison:
         self,
         cloud_inventory: dict[str, list[dict]],
         tf_resources: dict[str, set[str]],
-    ) -> DriftReport:
+    ) -> ShadowInfraReport:
 
-        report = DriftReport(account_id=self.account_id)
+        report = ShadowInfraReport(account_id=self.account_id)
         dark: list = []
 
         for aws_type, resources in cloud_inventory.items():
