@@ -4,7 +4,7 @@ A beginner-friendly walkthrough of shadow infrastructure: what it is, why it hap
 
 This repo contains the companion code for the full article, covering deploying resources through Terraform, simulating shadow infrastructure via ClickOps, and comparing the difference in Python.
 
-📖 **Read the full article:** [The Terraform Blind Spot Nobody Talks About](https://medium.com/p/0b4ce33a3ba0)
+📖 **Read the full article:** [The Terraform Blind Spot Nobody Talks About](https://medium.com/aws-in-plain-english/the-terraform-blind-spot-nobody-talks-about-0b4ce33a3ba0)
 
 ## What's in this repo
 
